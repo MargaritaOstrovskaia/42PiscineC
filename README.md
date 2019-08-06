@@ -1,4 +1,6 @@
 # 42PiscineC
+[Wiki.](https://github.com/MargaritaOstrovskaia/42PiscineC/wiki)
+
 **My exams:**
 * level 0:
     - maff_alpha
