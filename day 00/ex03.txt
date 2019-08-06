@@ -1,0 +1,40 @@
+Exercise 03:
+
+drwx--xr-x  2 XX  XX  XX Jun  1 20:47 test0
+-rwx--xr--  1 XX  XX   4 Jun  1 21:46 test1
+dr-x---r--  2 XX  XX  XX Jun  1 22:45 test2
+-r-----r--  2 XX  XX   1 Jun  1 23:44 test3
+-rw-r----x  1 XX  XX   2 Jun  1 23:43 test4
+-r-----r--  2 XX  XX   1 Jun  1 23:44 test5
+lrwxr-xr-x  1 XX  XX   5 Jun  1 22:20 test6 -> test0
+
+Create files:
+touch test0, test1, test2, test3, test4, test5, test6
+
+Change permissions:
+chmod 455 testDay00
+
+Permission codes:
+chmod 715 test0
+chmod 714 test1
+chmod 504 test2
+chmod 404 test3
+chmod 641 test4
+chmod 404 test5
+
+Change dates:
+touch -t 1906012047 test0
+touch -t 1906012146 test1
+touch -t 1906012245 test2
+touch -t 1906012344 test3
+touch -t 1906012343 test4
+touch -t 1906012344 test5
+
+Create hard links:
+ln test .test
+
+Create symbolic link: 		ln -s test0 test6
+Change permissions on link: chmod -h 755 test6
+Change date on link: 		touch -t 1906012047 -h test6
+
+Change size: add syllables in file.

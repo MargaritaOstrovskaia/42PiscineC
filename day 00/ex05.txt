@@ -1,0 +1,4 @@
+Exercise 05:
+
+In a midLS file:
+ls -upm

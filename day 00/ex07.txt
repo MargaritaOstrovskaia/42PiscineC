@@ -1,0 +1,6 @@
+Exercise 07:
+
+bash git_ignore.sh | cat -e
+
+Create script 'git_ignore.sh':
+	git check-ignore *
