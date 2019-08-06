@@ -1,0 +1,8 @@
+Exercise 02:
+
+-r--r-xr-x  1 mostrovs  2019_july    40 Jun  1 23:42 testDay00
+
+Create a file called testDay00:	touch testDay00
+Change permissions:				chmod 455 testDay00
+Change date:					touch -t 1906012342 testDay00
+And add 39 syllables in file.
